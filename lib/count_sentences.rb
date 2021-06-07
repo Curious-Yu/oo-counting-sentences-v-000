@@ -18,6 +18,8 @@ class String
     count = 0
     self.split do |sentence|
       if [".", "?", "!"]include?(sentence)
-
+        count = count + 1
+      end
+    end
   end
 end
