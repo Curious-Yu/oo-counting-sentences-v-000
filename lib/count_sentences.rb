@@ -16,7 +16,8 @@ class String
 
   def count_sentences
     count = 0
-    if self.split(" ")
+    self.split do |sentence|
+      if [".", "?", "!"]include?
 
   end
 end
