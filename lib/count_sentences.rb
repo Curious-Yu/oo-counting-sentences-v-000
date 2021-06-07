@@ -17,7 +17,7 @@ class String
   def count_sentences
     count = 0
     self.split do |sentence|
-      if [".", "?", "!"].include?(sentence)
+      if [".", "?", "!"].include?(sentence[-1])
         count = count + 1
       end
     end
