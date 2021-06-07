@@ -15,8 +15,8 @@ class String
   end
 
   def count_sentences
-    if self.length = 0
-      puts
+    count = 0
+    if self.split(" ")
 
   end
 end
